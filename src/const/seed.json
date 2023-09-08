@@ -1,0 +1,2772 @@
+[
+  {
+    "patient": [
+      {
+        "id": "52039030-9524-4409-86df-d598e24dec2b",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "dob": "2023-09-08T16:28:53.150Z",
+        "gender": "Female",
+        "phone_number": "123-456-7890",
+        "address": "789 Main Street",
+        "created_at": "2023-09-08T13:58:22.987Z",
+        "updated_at": "2023-09-08T10:47:28.233Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "dcc4a5c3-a551-4f65-850c-a2e77f4c0607",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "dob": "2023-09-08T21:24:06.637Z",
+        "gender": "Male",
+        "phone_number": "987-654-3210",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-09-08T23:16:51.356Z",
+        "updated_at": "2023-09-08T18:19:45.875Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "93b4aeba-11a6-44d7-a582-6867def86510",
+        "first_name": "Olivia",
+        "last_name": "Smith",
+        "dob": "2023-09-08T10:39:35.094Z",
+        "gender": "Female",
+        "phone_number": "555-123-4567",
+        "address": "123 Oak Lane",
+        "created_at": "2023-09-08T22:42:07.485Z",
+        "updated_at": "2023-09-08T21:15:48.627Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "6cf6c2b0-261f-457b-bd3d-5dd9a2899e24",
+        "first_name": "James",
+        "last_name": "Davis",
+        "dob": "2023-09-08T09:35:57.188Z",
+        "gender": "Male",
+        "phone_number": "888-999-0000",
+        "address": "987 Pine Road",
+        "created_at": "2023-09-08T09:18:43.405Z",
+        "updated_at": "2023-09-08T04:33:27.190Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "1fccf631-556e-4596-a5d8-6b11d587a417",
+        "first_name": "Sophia",
+        "last_name": "Miller",
+        "dob": "2023-09-07T23:25:59.492Z",
+        "gender": "Female",
+        "phone_number": "111-222-3333",
+        "address": "654 Maple Drive",
+        "created_at": "2023-09-08T10:35:55.840Z",
+        "updated_at": "2023-09-08T10:09:22.685Z",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "treatment_plan": [
+      {
+        "id": "e1eb487c-438d-4fd7-8ffb-bd75bb0a4d10",
+        "name": "Routine Checkup",
+        "description": "Regular dental examination and cleaning",
+        "cost": 37857,
+        "start_date": "2023-09-08T12:51:22.995Z",
+        "end_date": "2023-09-08T11:28:41.501Z",
+        "created_at": "2023-09-08T01:34:42.644Z",
+        "updated_at": "2023-09-08T06:24:21.244Z",
+        "patient_id": "1fccf631-556e-4596-a5d8-6b11d587a417"
+      },
+      {
+        "id": "8c0d1296-0ab9-4add-a8ab-36f713fe6a3e",
+        "name": "Dental Cleaning",
+        "description": "Comprehensive evaluation of orthopedic condition",
+        "cost": 99358,
+        "start_date": "2023-09-08T13:43:40.446Z",
+        "end_date": "2023-09-08T07:44:12.163Z",
+        "created_at": "2023-09-08T03:56:33.129Z",
+        "updated_at": "2023-09-08T05:23:12.212Z",
+        "patient_id": "dcc4a5c3-a551-4f65-850c-a2e77f4c0607"
+      },
+      {
+        "id": "b328395b-08da-46c1-90a9-18b4f32f1ad1",
+        "name": "Orthopedic Consultation",
+        "description": "Consultation for cosmetic surgery procedure",
+        "cost": 61712,
+        "start_date": "2023-09-08T06:33:02.058Z",
+        "end_date": "2023-09-08T03:20:59.547Z",
+        "created_at": "2023-09-08T09:20:51.786Z",
+        "updated_at": "2023-09-08T19:13:19.300Z",
+        "patient_id": "1fccf631-556e-4596-a5d8-6b11d587a417"
+      },
+      {
+        "id": "f2f0cf9a-e878-4ddf-99b6-e60f49ecdf25",
+        "name": "Cosmetic Surgery Evaluation",
+        "description": "Vaccination for children as per schedule",
+        "cost": 2056,
+        "start_date": "2023-09-08T00:25:26.620Z",
+        "end_date": "2023-09-08T18:24:15.548Z",
+        "created_at": "2023-09-08T03:00:33.012Z",
+        "updated_at": "2023-09-08T02:06:08.287Z",
+        "patient_id": "1fccf631-556e-4596-a5d8-6b11d587a417"
+      },
+      {
+        "id": "8d5ae3a7-78c8-4746-868d-85e1aa28a7f2",
+        "name": "Pediatric Vaccination",
+        "description": "Customized treatment plan for dental health",
+        "cost": 65825,
+        "start_date": "2023-09-08T08:32:32.362Z",
+        "end_date": "2023-09-08T02:03:30.506Z",
+        "created_at": "2023-09-08T06:29:13.424Z",
+        "updated_at": "2023-09-08T09:28:03.038Z",
+        "patient_id": "1fccf631-556e-4596-a5d8-6b11d587a417"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "7a2d24c8-425c-457c-be33-30fb0deabafb",
+        "item_name": "Toothbrush",
+        "quantity": 28218,
+        "reorder_level": 98555,
+        "last_order_date": "2023-09-07T23:57:36.917Z",
+        "next_order_date": "2023-09-08T21:42:25.495Z",
+        "created_at": "2023-09-08T10:41:53.611Z",
+        "updated_at": "2023-09-08T15:48:49.551Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "aa00bcc1-18db-4a2f-b594-6180a1dcc978",
+        "item_name": "Dental Floss",
+        "quantity": 73375,
+        "reorder_level": 88471,
+        "last_order_date": "2023-09-08T10:15:36.938Z",
+        "next_order_date": "2023-09-08T05:32:26.520Z",
+        "created_at": "2023-09-08T07:28:31.641Z",
+        "updated_at": "2023-09-08T05:48:14.674Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "a4c947c6-71c1-435d-ae28-1df28713e6ff",
+        "item_name": "Orthopedic Brace",
+        "quantity": 81772,
+        "reorder_level": 83817,
+        "last_order_date": "2023-09-08T09:26:51.775Z",
+        "next_order_date": "2023-09-08T07:56:48.436Z",
+        "created_at": "2023-09-08T11:22:04.335Z",
+        "updated_at": "2023-09-08T05:08:53.836Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "a8ec80ca-d1a9-416d-9633-8be6610d490e",
+        "item_name": "Cosmetic Cream",
+        "quantity": 87094,
+        "reorder_level": 9074,
+        "last_order_date": "2023-09-08T09:01:47.146Z",
+        "next_order_date": "2023-09-08T12:20:00.251Z",
+        "created_at": "2023-09-08T07:56:26.511Z",
+        "updated_at": "2023-09-08T01:55:29.554Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "aa7d8ffe-d078-4018-8824-001e3da94be7",
+        "item_name": "Pediatric Vaccine",
+        "quantity": 36744,
+        "reorder_level": 36750,
+        "last_order_date": "2023-09-08T01:02:01.928Z",
+        "next_order_date": "2023-09-08T14:10:32.198Z",
+        "created_at": "2023-09-08T08:39:56.750Z",
+        "updated_at": "2023-09-08T22:53:16.950Z",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "9505a637-e3a0-496b-b0d5-0269839fe7b7",
+        "date": "2023-09-08T21:37:45.876Z",
+        "time": "2023-09-08T07:15:57.674Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-08T21:57:37.635Z",
+        "updated_at": "2023-09-08T23:02:50.018Z",
+        "patient_id": "6cf6c2b0-261f-457b-bd3d-5dd9a2899e24",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "2f760469-8a56-4da6-97f3-f5c6189af20a",
+        "date": "2023-09-08T17:22:03.108Z",
+        "time": "2023-09-08T12:47:53.969Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-08T00:03:36.956Z",
+        "updated_at": "2023-09-08T20:08:52.226Z",
+        "patient_id": "52039030-9524-4409-86df-d598e24dec2b",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "8dcaf3f6-3418-4abc-b24f-b2f9d1b95608",
+        "date": "2023-09-08T08:21:27.781Z",
+        "time": "2023-09-08T02:40:54.380Z",
+        "status": "Completed",
+        "created_at": "2023-09-08T19:06:16.083Z",
+        "updated_at": "2023-09-08T11:02:18.916Z",
+        "patient_id": "52039030-9524-4409-86df-d598e24dec2b",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "52d9c0d8-5c6f-4598-a4d5-48e76cb1f2bd",
+        "date": "2023-09-08T22:25:40.810Z",
+        "time": "2023-09-08T04:33:22.262Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-08T21:20:11.814Z",
+        "updated_at": "2023-09-08T19:38:28.657Z",
+        "patient_id": "52039030-9524-4409-86df-d598e24dec2b",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "f7f31389-6a38-4565-918d-9564419234a1",
+        "date": "2023-09-08T01:32:57.136Z",
+        "time": "2023-09-08T03:05:15.236Z",
+        "status": "Rescheduled",
+        "created_at": "2023-09-08T17:23:57.603Z",
+        "updated_at": "2023-09-08T09:57:53.977Z",
+        "patient_id": "93b4aeba-11a6-44d7-a582-6867def86510",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bc1cc7d1-b3fd-41d8-bff1-43cae5228180",
+        "email": "Bernadine89@yahoo.com",
+        "firstName": "Jannie",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1062.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "64d8dc79-848c-4794-b0ac-aad8f68fe8d1",
+        "email": "Meredith.Kautzer@hotmail.com",
+        "firstName": "Sofia",
+        "lastName": "Bode",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93920424",
+        "tenantId": null
+      },
+      {
+        "reference": "e80f6b13-ac2f-4ca0-aaff-ea60408c9f06",
+        "email": "Chaya82@gmail.com",
+        "firstName": "Nadia",
+        "lastName": "Spinka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/387.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1be4f761-6445-4d0d-b774-77fb5b4f7805",
+        "email": "Kelli.Collins94@hotmail.com",
+        "firstName": "Junior",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49822892",
+        "tenantId": null
+      },
+      {
+        "reference": "f3bd3de3-08b8-4c6e-b781-8c21044dc81e",
+        "email": "Nayeli26@hotmail.com",
+        "firstName": "Caleigh",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69221092",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "d4725c4f-f5be-4c74-b4c0-1f9022af74df",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "dob": "2023-09-08T08:38:30.585Z",
+        "gender": "Female",
+        "phone_number": "1234567890",
+        "address": "123 Main St",
+        "created_at": "2023-09-08T05:24:10.300Z",
+        "updated_at": "2023-09-08T22:01:21.366Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "d82bbe55-e65a-4e5b-ba8c-e22fb4ccdf39",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "dob": "2023-09-08T08:05:14.654Z",
+        "gender": "Male",
+        "phone_number": "9876543210",
+        "address": "456 Elm St",
+        "created_at": "2023-09-08T09:20:59.802Z",
+        "updated_at": "2023-09-08T06:26:38.040Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "300b99e4-e261-4b52-adb4-a85bb3ef0fff",
+        "first_name": "Olivia",
+        "last_name": "Smith",
+        "dob": "2023-09-08T08:31:54.177Z",
+        "gender": "Female",
+        "phone_number": "2345678901",
+        "address": "789 Oak St",
+        "created_at": "2023-09-08T00:13:32.469Z",
+        "updated_at": "2023-09-08T17:35:56.799Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "8f8ea910-178c-437e-a1b3-29feb46eaa27",
+        "first_name": "James",
+        "last_name": "Davis",
+        "dob": "2023-09-08T09:26:53.430Z",
+        "gender": "Male",
+        "phone_number": "8901234567",
+        "address": "321 Pine St",
+        "created_at": "2023-09-08T19:50:06.188Z",
+        "updated_at": "2023-09-08T17:59:28.477Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "cfbf8ff8-daf2-41c9-bc6e-9da79f466eb8",
+        "first_name": "Sophia",
+        "last_name": "Miller",
+        "dob": "2023-09-08T04:45:04.156Z",
+        "gender": "Female",
+        "phone_number": "5678901234",
+        "address": "654 Maple St",
+        "created_at": "2023-09-08T15:54:01.357Z",
+        "updated_at": "2023-09-08T06:38:53.066Z",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "treatment_plan": [
+      {
+        "id": "157fb4a4-0047-410c-814e-6952c8386670",
+        "name": "Teeth Whitening",
+        "description": "Brighten your smile",
+        "cost": 24049,
+        "start_date": "2023-09-08T02:31:02.230Z",
+        "end_date": "2023-09-08T00:31:32.850Z",
+        "created_at": "2023-09-08T06:47:49.511Z",
+        "updated_at": "2023-09-08T07:09:36.565Z",
+        "patient_id": "cfbf8ff8-daf2-41c9-bc6e-9da79f466eb8"
+      },
+      {
+        "id": "f8c9802a-b137-4e5b-9e7c-887d380fda97",
+        "name": "Braces",
+        "description": "Align your teeth",
+        "cost": 22621,
+        "start_date": "2023-09-08T09:27:03.464Z",
+        "end_date": "2023-09-08T21:04:09.282Z",
+        "created_at": "2023-09-08T21:24:56.086Z",
+        "updated_at": "2023-09-08T13:52:55.083Z",
+        "patient_id": "d82bbe55-e65a-4e5b-ba8c-e22fb4ccdf39"
+      },
+      {
+        "id": "23477560-e046-4442-b4cb-db00101ac91e",
+        "name": "Fluoride Treatment",
+        "description": "Strengthen enamel",
+        "cost": 30522,
+        "start_date": "2023-09-08T20:00:38.291Z",
+        "end_date": "2023-09-08T13:57:47.026Z",
+        "created_at": "2023-09-08T20:44:40.624Z",
+        "updated_at": "2023-09-08T15:21:44.156Z",
+        "patient_id": "cfbf8ff8-daf2-41c9-bc6e-9da79f466eb8"
+      },
+      {
+        "id": "0051a728-777c-4cbc-a50d-63e075a8fab8",
+        "name": "Root Canal",
+        "description": "Save your tooth",
+        "cost": 24246,
+        "start_date": "2023-09-08T11:25:54.928Z",
+        "end_date": "2023-09-08T22:20:07.281Z",
+        "created_at": "2023-09-08T20:00:52.518Z",
+        "updated_at": "2023-09-08T06:20:45.068Z",
+        "patient_id": "cfbf8ff8-daf2-41c9-bc6e-9da79f466eb8"
+      },
+      {
+        "id": "6f445ba9-3aac-4e6f-97df-d6a62d0c5449",
+        "name": "Dental Implants",
+        "description": "Replace missing teeth",
+        "cost": 18735,
+        "start_date": "2023-09-07T23:36:21.513Z",
+        "end_date": "2023-09-08T15:13:56.301Z",
+        "created_at": "2023-09-08T09:44:29.131Z",
+        "updated_at": "2023-09-08T14:17:52.586Z",
+        "patient_id": "d4725c4f-f5be-4c74-b4c0-1f9022af74df"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "56434296-e716-43ac-aed9-e11eb05d8a3e",
+        "item_name": "Toothbrush",
+        "quantity": 98672,
+        "reorder_level": 35034,
+        "last_order_date": "2023-09-07T23:28:01.824Z",
+        "next_order_date": "2023-09-08T10:45:57.103Z",
+        "created_at": "2023-09-08T14:53:55.905Z",
+        "updated_at": "2023-09-08T02:22:41.825Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "3295cff7-35e6-4d3b-a193-e73d6517437d",
+        "item_name": "Floss",
+        "quantity": 25531,
+        "reorder_level": 19209,
+        "last_order_date": "2023-09-08T16:24:51.218Z",
+        "next_order_date": "2023-09-08T08:06:43.940Z",
+        "created_at": "2023-09-07T23:55:57.111Z",
+        "updated_at": "2023-09-08T10:35:24.007Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "20023068-d91f-4cb5-94a4-980ed369ca7c",
+        "item_name": "Toothpaste",
+        "quantity": 39636,
+        "reorder_level": 86496,
+        "last_order_date": "2023-09-08T15:20:55.468Z",
+        "next_order_date": "2023-09-08T19:41:27.575Z",
+        "created_at": "2023-09-08T18:32:15.885Z",
+        "updated_at": "2023-09-08T20:54:08.739Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "a9b8a21b-4e01-4730-a311-149f5cc52699",
+        "item_name": "Mouthwash",
+        "quantity": 78605,
+        "reorder_level": 6543,
+        "last_order_date": "2023-09-08T09:46:22.693Z",
+        "next_order_date": "2023-09-08T01:58:54.524Z",
+        "created_at": "2023-09-08T21:44:18.037Z",
+        "updated_at": "2023-09-08T10:52:46.204Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "11893592-08d1-427d-b175-783902ddedfd",
+        "item_name": "Dental Floss",
+        "quantity": 47651,
+        "reorder_level": 792,
+        "last_order_date": "2023-09-08T02:33:39.438Z",
+        "next_order_date": "2023-09-08T19:45:06.625Z",
+        "created_at": "2023-09-08T01:48:26.653Z",
+        "updated_at": "2023-09-08T19:45:20.738Z",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "7e9c82a4-d808-4220-a43e-dc97dcd56637",
+        "date": "2023-09-08T09:28:04.907Z",
+        "time": "2023-09-08T14:55:42.177Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-08T21:57:43.482Z",
+        "updated_at": "2023-09-08T12:42:12.476Z",
+        "patient_id": "8f8ea910-178c-437e-a1b3-29feb46eaa27",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "9fc47ec7-6b4c-47d2-b63a-5407269c44f7",
+        "date": "2023-09-08T13:03:48.000Z",
+        "time": "2023-09-08T11:59:20.260Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-08T07:33:59.577Z",
+        "updated_at": "2023-09-08T05:44:41.287Z",
+        "patient_id": "300b99e4-e261-4b52-adb4-a85bb3ef0fff",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "fd911364-10cc-4c6e-9b83-79aa54032acd",
+        "date": "2023-09-08T16:15:39.690Z",
+        "time": "2023-09-08T16:28:59.991Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-08T22:42:09.700Z",
+        "updated_at": "2023-09-08T10:44:09.168Z",
+        "patient_id": "d82bbe55-e65a-4e5b-ba8c-e22fb4ccdf39",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "f006e198-aa94-466c-b316-73ab8984ed80",
+        "date": "2023-09-08T20:54:29.634Z",
+        "time": "2023-09-08T22:44:10.315Z",
+        "status": "Completed",
+        "created_at": "2023-09-08T00:22:12.356Z",
+        "updated_at": "2023-09-08T12:51:57.811Z",
+        "patient_id": "d4725c4f-f5be-4c74-b4c0-1f9022af74df",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "2fe857bc-00a1-4e09-9909-bb9836871525",
+        "date": "2023-09-08T17:48:12.026Z",
+        "time": "2023-09-08T19:47:54.362Z",
+        "status": "Rescheduled",
+        "created_at": "2023-09-08T05:33:26.865Z",
+        "updated_at": "2023-09-08T02:33:23.713Z",
+        "patient_id": "cfbf8ff8-daf2-41c9-bc6e-9da79f466eb8",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "54f459dc-c47a-46a4-aac5-771f393f01b4",
+        "email": "Regan.Sawayn@yahoo.com",
+        "firstName": "Tommie",
+        "lastName": "Watsica",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/103.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "179d5518-0c96-4a2b-b91c-e7ef60bcaa90",
+        "email": "Cyrus_Wintheiser@hotmail.com",
+        "firstName": "Ruben",
+        "lastName": "Bruen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81495674",
+        "tenantId": null
+      },
+      {
+        "reference": "6f8db071-5d0b-45b6-a042-bada8d8dc605",
+        "email": "Aracely.Kilback@gmail.com",
+        "firstName": "Maximus",
+        "lastName": "Terry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1079.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8186e1dd-6c28-4798-84ac-119c18b0122e",
+        "email": "Amy.Franey90@gmail.com",
+        "firstName": "Nathan",
+        "lastName": "Ondricka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/839.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a76769e1-70f8-48d4-82eb-3b6e4d5d1033",
+        "email": "Reilly49@hotmail.com",
+        "firstName": "Giovanny",
+        "lastName": "Schmidt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25054372",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "180407c5-3a85-4547-b02c-c6d34e370626",
+        "first_name": "Alice",
+        "last_name": "Johnson",
+        "dob": "2023-09-08T07:42:06.062Z",
+        "gender": "Female",
+        "phone_number": "123-456-7890",
+        "address": "123 Main Street",
+        "created_at": "2023-09-08T21:13:20.591Z",
+        "updated_at": "2023-09-08T12:37:52.292Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "4843d964-a2df-4522-a542-5e01408b71cd",
+        "first_name": "Bob",
+        "last_name": "Smith",
+        "dob": "2023-09-07T23:24:13.332Z",
+        "gender": "Male",
+        "phone_number": "987-654-3210",
+        "address": "456 Park Avenue",
+        "created_at": "2023-09-08T14:16:41.468Z",
+        "updated_at": "2023-09-08T03:04:32.177Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "684f3114-14ef-40df-ac8b-a846aba4eaf6",
+        "first_name": "Eve",
+        "last_name": "Brown",
+        "dob": "2023-09-08T07:35:02.668Z",
+        "gender": "Female",
+        "phone_number": "555-555-5555",
+        "address": "789 Elm Road",
+        "created_at": "2023-09-08T10:44:43.885Z",
+        "updated_at": "2023-09-08T07:28:51.002Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "75c2ab62-1fa1-4043-b70f-e17be5b5de75",
+        "first_name": "Charlie",
+        "last_name": "Davis",
+        "dob": "2023-09-08T21:04:06.982Z",
+        "gender": "Male",
+        "phone_number": "888-888-8888",
+        "address": "321 Oak Lane",
+        "created_at": "2023-09-08T15:12:01.725Z",
+        "updated_at": "2023-09-08T18:14:06.491Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "c26e73f8-fcf3-44a3-8a01-29cdb707e853",
+        "first_name": "Olivia",
+        "last_name": "Wilson",
+        "dob": "2023-09-08T14:40:44.887Z",
+        "gender": "Female",
+        "phone_number": "999-999-9999",
+        "address": "654 Pine Court",
+        "created_at": "2023-09-08T22:51:30.697Z",
+        "updated_at": "2023-09-08T20:51:23.023Z",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "treatment_plan": [
+      {
+        "id": "fb7364cc-d7a5-44f4-9852-3f537cca746f",
+        "name": "Basic Cleaning",
+        "description": "Routine dental cleaning and examination",
+        "cost": 37740,
+        "start_date": "2023-09-08T11:40:54.071Z",
+        "end_date": "2023-09-08T05:36:21.139Z",
+        "created_at": "2023-09-08T13:54:20.110Z",
+        "updated_at": "2023-09-08T19:35:03.601Z",
+        "patient_id": "180407c5-3a85-4547-b02c-c6d34e370626"
+      },
+      {
+        "id": "4bae6dce-a743-4144-98ba-92673d0a885c",
+        "name": "Orthodontic Treatment",
+        "description": "Correction of misaligned teeth",
+        "cost": 40964,
+        "start_date": "2023-09-08T03:26:34.577Z",
+        "end_date": "2023-09-08T19:02:13.526Z",
+        "created_at": "2023-09-08T19:28:00.380Z",
+        "updated_at": "2023-09-08T16:18:43.261Z",
+        "patient_id": "684f3114-14ef-40df-ac8b-a846aba4eaf6"
+      },
+      {
+        "id": "0bc86602-ced8-4ce3-8af6-2b374842ba30",
+        "name": "Cosmetic Dentistry",
+        "description": "Enhancement of smile through various procedures",
+        "cost": 60493,
+        "start_date": "2023-09-08T11:30:55.594Z",
+        "end_date": "2023-09-08T11:22:30.646Z",
+        "created_at": "2023-09-08T04:27:48.679Z",
+        "updated_at": "2023-09-08T17:36:34.194Z",
+        "patient_id": "180407c5-3a85-4547-b02c-c6d34e370626"
+      },
+      {
+        "id": "9ef0ddfe-8b14-4221-99af-ede408050dca",
+        "name": "Physical Therapy",
+        "description": "Rehabilitation and recovery through exercises",
+        "cost": 96201,
+        "start_date": "2023-09-08T21:20:09.061Z",
+        "end_date": "2023-09-08T05:36:41.862Z",
+        "created_at": "2023-09-08T15:25:38.789Z",
+        "updated_at": "2023-09-08T16:13:03.465Z",
+        "patient_id": "c26e73f8-fcf3-44a3-8a01-29cdb707e853"
+      },
+      {
+        "id": "fda603b3-e5ec-402e-a5b7-d7c87dc6d5bd",
+        "name": "Pediatric Checkup",
+        "description": "Comprehensive health checkup for children",
+        "cost": 12770,
+        "start_date": "2023-09-08T12:28:56.712Z",
+        "end_date": "2023-09-08T02:30:21.878Z",
+        "created_at": "2023-09-08T05:29:19.135Z",
+        "updated_at": "2023-09-08T15:43:10.570Z",
+        "patient_id": "c26e73f8-fcf3-44a3-8a01-29cdb707e853"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "baf6020a-2667-4678-84b1-3f08390c6f21",
+        "item_name": "Toothbrush",
+        "quantity": 44966,
+        "reorder_level": 19589,
+        "last_order_date": "2023-09-08T09:26:36.711Z",
+        "next_order_date": "2023-09-08T23:01:17.469Z",
+        "created_at": "2023-09-08T17:18:56.064Z",
+        "updated_at": "2023-09-08T11:50:36.606Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "b8bb9f38-82ba-4406-a173-867f873c694e",
+        "item_name": "Floss",
+        "quantity": 94118,
+        "reorder_level": 80943,
+        "last_order_date": "2023-09-08T21:55:27.323Z",
+        "next_order_date": "2023-09-08T00:59:52.111Z",
+        "created_at": "2023-09-08T16:42:04.387Z",
+        "updated_at": "2023-09-08T15:28:15.483Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "e8c280aa-dc0d-4840-9a88-3521f90879b2",
+        "item_name": "Toothpaste",
+        "quantity": 12669,
+        "reorder_level": 62378,
+        "last_order_date": "2023-09-08T07:17:54.335Z",
+        "next_order_date": "2023-09-08T00:34:03.437Z",
+        "created_at": "2023-09-08T06:40:49.724Z",
+        "updated_at": "2023-09-08T08:43:11.712Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "1cbee238-441a-4791-9997-743712be80cf",
+        "item_name": "Bandage",
+        "quantity": 66947,
+        "reorder_level": 29240,
+        "last_order_date": "2023-09-08T16:17:11.012Z",
+        "next_order_date": "2023-09-08T22:42:12.576Z",
+        "created_at": "2023-09-08T15:04:36.114Z",
+        "updated_at": "2023-09-08T22:55:29.662Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "2e7da40b-557c-4285-baab-024e1e50ab78",
+        "item_name": "Medicine",
+        "quantity": 97426,
+        "reorder_level": 29542,
+        "last_order_date": "2023-09-08T14:13:39.202Z",
+        "next_order_date": "2023-09-08T09:58:46.928Z",
+        "created_at": "2023-09-08T03:04:00.064Z",
+        "updated_at": "2023-09-08T16:32:44.348Z",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "37cc0396-06ed-482f-b970-59b786d2ca6b",
+        "date": "2023-09-08T22:35:33.339Z",
+        "time": "2023-09-08T11:54:10.354Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-08T22:37:40.807Z",
+        "updated_at": "2023-09-08T10:48:40.410Z",
+        "patient_id": "75c2ab62-1fa1-4043-b70f-e17be5b5de75",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "a4fead71-a0b2-4006-8d84-1bd1ca82318b",
+        "date": "2023-09-08T06:46:08.080Z",
+        "time": "2023-09-08T10:47:40.969Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-08T05:28:20.687Z",
+        "updated_at": "2023-09-08T11:32:32.836Z",
+        "patient_id": "180407c5-3a85-4547-b02c-c6d34e370626",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "180f28ed-dbe9-4697-bd57-d68035d162d8",
+        "date": "2023-09-08T19:28:51.179Z",
+        "time": "2023-09-08T15:56:21.879Z",
+        "status": "Completed",
+        "created_at": "2023-09-08T02:14:49.013Z",
+        "updated_at": "2023-09-08T10:07:46.814Z",
+        "patient_id": "4843d964-a2df-4522-a542-5e01408b71cd",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "f5b5d780-a0ce-44e5-a4f0-6b0099b1bb85",
+        "date": "2023-09-08T21:37:37.663Z",
+        "time": "2023-09-08T23:02:19.177Z",
+        "status": "Rescheduled",
+        "created_at": "2023-09-08T01:25:44.784Z",
+        "updated_at": "2023-09-08T13:44:34.232Z",
+        "patient_id": "684f3114-14ef-40df-ac8b-a846aba4eaf6",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "93b4af75-bd0d-4b5b-9956-80d9df26a622",
+        "date": "2023-09-08T19:37:52.443Z",
+        "time": "2023-09-07T23:51:45.761Z",
+        "status": "Pending",
+        "created_at": "2023-09-08T17:46:25.960Z",
+        "updated_at": "2023-09-08T05:48:54.087Z",
+        "patient_id": "684f3114-14ef-40df-ac8b-a846aba4eaf6",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "eec4ab71-29ee-41f1-97b8-a108c183326a",
+        "email": "Elaina_Jacobi27@yahoo.com",
+        "firstName": "Lizeth",
+        "lastName": "Skiles",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48801573",
+        "tenantId": null
+      },
+      {
+        "reference": "5ac00202-a474-4d40-bdd9-5c8344be1ef9",
+        "email": "Woodrow.Schoen-Davis83@yahoo.com",
+        "firstName": "Israel",
+        "lastName": "Wuckert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46280624",
+        "tenantId": null
+      },
+      {
+        "reference": "85e22b2b-2efc-425b-b9f9-c66f3d1f135d",
+        "email": "Bobbie_Smith25@gmail.com",
+        "firstName": "Jaydon",
+        "lastName": "Senger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98066773",
+        "tenantId": null
+      },
+      {
+        "reference": "5fddc5fc-593e-4c9a-891f-5707eab69cf5",
+        "email": "Jazlyn.Jakubowski@gmail.com",
+        "firstName": "Nellie",
+        "lastName": "Weber",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/94.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "03dbe9ed-d8a2-4397-a4a6-a359ba265f02",
+        "email": "Savannah99@hotmail.com",
+        "firstName": "Gussie",
+        "lastName": "Wintheiser",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/0.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "6ba46be3-edaa-4587-98b1-e0dc790cd6c7",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "dob": "2023-09-08T07:52:19.208Z",
+        "gender": "Female",
+        "phone_number": "123-456-7890",
+        "address": "789 Main St",
+        "created_at": "2023-09-08T04:41:32.455Z",
+        "updated_at": "2023-09-08T22:08:02.059Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "5a6e430e-508f-4e6f-a03d-3ffccae78817",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "dob": "2023-09-08T15:42:51.225Z",
+        "gender": "Male",
+        "phone_number": "987-654-3210",
+        "address": "456 Elm St",
+        "created_at": "2023-09-08T13:36:35.253Z",
+        "updated_at": "2023-09-08T11:47:21.999Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "bd05eeba-5883-4240-b461-d8e9d829f564",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "dob": "2023-09-08T08:03:48.661Z",
+        "gender": "Female",
+        "phone_number": "555-123-4567",
+        "address": "123 Oak St",
+        "created_at": "2023-09-08T00:04:19.385Z",
+        "updated_at": "2023-09-07T23:42:29.303Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "43d1f647-6a8a-47cd-b751-95df6c035c8b",
+        "first_name": "James",
+        "last_name": "Brown",
+        "dob": "2023-09-08T00:24:14.095Z",
+        "gender": "Male",
+        "phone_number": "888-999-0000",
+        "address": "321 Pine St",
+        "created_at": "2023-09-08T19:38:15.193Z",
+        "updated_at": "2023-09-08T19:03:50.400Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "bfbfff45-fd93-447e-a1b4-b631240c79c3",
+        "first_name": "Sophia",
+        "last_name": "Jones",
+        "dob": "2023-09-08T14:56:32.818Z",
+        "gender": "Female",
+        "phone_number": "444-555-6666",
+        "address": "654 Maple St",
+        "created_at": "2023-09-08T08:45:58.447Z",
+        "updated_at": "2023-09-08T04:44:05.875Z",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "treatment_plan": [
+      {
+        "id": "10b54513-3720-47e1-89df-f40ee27c7a2d",
+        "name": "Routine Checkup",
+        "description": "Regular dental checkup and cleaning",
+        "cost": 54190,
+        "start_date": "2023-09-08T02:55:20.694Z",
+        "end_date": "2023-09-08T17:54:57.749Z",
+        "created_at": "2023-09-08T11:51:00.266Z",
+        "updated_at": "2023-09-08T17:35:23.738Z",
+        "patient_id": "5a6e430e-508f-4e6f-a03d-3ffccae78817"
+      },
+      {
+        "id": "d1ab36a3-a28c-4927-85ea-0c84a24ad61f",
+        "name": "Orthodontic Treatment",
+        "description": "Braces and aligners for teeth straightening",
+        "cost": 94285,
+        "start_date": "2023-09-08T17:54:56.426Z",
+        "end_date": "2023-09-08T02:34:10.546Z",
+        "created_at": "2023-09-08T03:58:47.267Z",
+        "updated_at": "2023-09-08T11:09:55.880Z",
+        "patient_id": "bfbfff45-fd93-447e-a1b4-b631240c79c3"
+      },
+      {
+        "id": "eb294a57-b192-44fe-b68d-195a0271e0e2",
+        "name": "Teeth Whitening",
+        "description": "Professional teeth whitening procedure",
+        "cost": 91045,
+        "start_date": "2023-09-08T12:02:59.933Z",
+        "end_date": "2023-09-08T10:55:57.538Z",
+        "created_at": "2023-09-08T13:56:08.599Z",
+        "updated_at": "2023-09-08T02:49:36.515Z",
+        "patient_id": "6ba46be3-edaa-4587-98b1-e0dc790cd6c7"
+      },
+      {
+        "id": "dd5673ad-e95e-41ec-8ff5-2be0bedf40ff",
+        "name": "Pediatric Dentistry",
+        "description": "Dental care for children",
+        "cost": 17043,
+        "start_date": "2023-09-08T10:32:24.849Z",
+        "end_date": "2023-09-08T09:42:38.916Z",
+        "created_at": "2023-09-08T14:10:04.622Z",
+        "updated_at": "2023-09-08T07:20:15.729Z",
+        "patient_id": "5a6e430e-508f-4e6f-a03d-3ffccae78817"
+      },
+      {
+        "id": "84fd3aca-171a-4387-9481-54d0e83bf600",
+        "name": "Wisdom Tooth Extraction",
+        "description": "Surgical removal of wisdom teeth",
+        "cost": 964,
+        "start_date": "2023-09-08T13:11:47.760Z",
+        "end_date": "2023-09-08T20:06:58.072Z",
+        "created_at": "2023-09-08T10:52:21.278Z",
+        "updated_at": "2023-09-08T01:15:56.723Z",
+        "patient_id": "bd05eeba-5883-4240-b461-d8e9d829f564"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "86b45e7f-a60c-4e12-8e12-2269905ae0e6",
+        "item_name": "Toothbrush",
+        "quantity": 47406,
+        "reorder_level": 15661,
+        "last_order_date": "2023-09-08T16:52:31.532Z",
+        "next_order_date": "2023-09-08T07:54:49.179Z",
+        "created_at": "2023-09-07T23:54:12.919Z",
+        "updated_at": "2023-09-08T05:14:08.465Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "8a069173-8efb-4d02-a46a-a2ab706f0f62",
+        "item_name": "Toothpaste",
+        "quantity": 89219,
+        "reorder_level": 23802,
+        "last_order_date": "2023-09-08T15:23:24.801Z",
+        "next_order_date": "2023-09-08T12:40:49.334Z",
+        "created_at": "2023-09-08T19:57:15.860Z",
+        "updated_at": "2023-09-08T06:33:28.991Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "4a74f530-ef1f-48fd-9408-e508700c0c22",
+        "item_name": "Floss",
+        "quantity": 4783,
+        "reorder_level": 87399,
+        "last_order_date": "2023-09-08T13:24:54.316Z",
+        "next_order_date": "2023-09-08T14:49:23.596Z",
+        "created_at": "2023-09-08T19:25:42.367Z",
+        "updated_at": "2023-09-08T17:54:29.433Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "bb6def73-55d2-404b-9239-5df0a4f4e288",
+        "item_name": "Mouthwash",
+        "quantity": 16969,
+        "reorder_level": 71316,
+        "last_order_date": "2023-09-08T06:22:00.868Z",
+        "next_order_date": "2023-09-08T14:16:10.676Z",
+        "created_at": "2023-09-08T13:22:17.302Z",
+        "updated_at": "2023-09-08T23:07:15.375Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "4d661d4c-7b89-4da5-8350-ee69ba190e76",
+        "item_name": "Dental Floss",
+        "quantity": 51847,
+        "reorder_level": 99132,
+        "last_order_date": "2023-09-08T15:13:05.456Z",
+        "next_order_date": "2023-09-08T11:33:26.032Z",
+        "created_at": "2023-09-08T16:02:52.004Z",
+        "updated_at": "2023-09-07T23:49:05.715Z",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "966a3050-9c55-4612-9425-8e24c3f02749",
+        "date": "2023-09-08T20:10:49.774Z",
+        "time": "2023-09-08T13:09:09.590Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-08T08:53:35.071Z",
+        "updated_at": "2023-09-08T09:57:36.368Z",
+        "patient_id": "43d1f647-6a8a-47cd-b751-95df6c035c8b",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "6326d9b6-a7b0-47b8-83e8-a006fa5f1f77",
+        "date": "2023-09-08T13:17:12.524Z",
+        "time": "2023-09-07T23:33:25.148Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-08T17:41:45.759Z",
+        "updated_at": "2023-09-08T14:56:48.790Z",
+        "patient_id": "bd05eeba-5883-4240-b461-d8e9d829f564",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "2924248e-2c62-4fc0-8299-a417165278dc",
+        "date": "2023-09-08T17:29:09.114Z",
+        "time": "2023-09-07T23:53:04.403Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-08T18:59:40.802Z",
+        "updated_at": "2023-09-08T14:34:43.098Z",
+        "patient_id": "6ba46be3-edaa-4587-98b1-e0dc790cd6c7",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "19503d01-92f8-4c0b-bc64-ac98e5c6ed86",
+        "date": "2023-09-08T19:10:05.986Z",
+        "time": "2023-09-08T13:22:24.117Z",
+        "status": "Completed",
+        "created_at": "2023-09-08T06:14:46.834Z",
+        "updated_at": "2023-09-08T06:35:02.158Z",
+        "patient_id": "bfbfff45-fd93-447e-a1b4-b631240c79c3",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "feceda5f-d5b3-4f1c-a652-2c9321a65002",
+        "date": "2023-09-08T10:28:15.739Z",
+        "time": "2023-09-08T00:44:03.305Z",
+        "status": "Rescheduled",
+        "created_at": "2023-09-08T14:54:48.693Z",
+        "updated_at": "2023-09-08T04:14:16.219Z",
+        "patient_id": "5a6e430e-508f-4e6f-a03d-3ffccae78817",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d382c0c8-bc40-4582-a903-9150acf1782c",
+        "email": "Floyd.Paucek99@hotmail.com",
+        "firstName": "General",
+        "lastName": "McGlynn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54143663",
+        "tenantId": null
+      },
+      {
+        "reference": "40fc937a-9593-4b42-83e3-29e21d98b65d",
+        "email": "Quinn12@yahoo.com",
+        "firstName": "Amalia",
+        "lastName": "Reichert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/241.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "937897d3-15d6-4533-b343-350e132f3299",
+        "email": "Andres.Ryan61@hotmail.com",
+        "firstName": "Edmund",
+        "lastName": "Crist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30731508",
+        "tenantId": null
+      },
+      {
+        "reference": "c2a2a688-9d1d-4a98-8c4d-aae3206e1ea3",
+        "email": "Sherman65@hotmail.com",
+        "firstName": "Vincenzo",
+        "lastName": "Heathcote",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63617207",
+        "tenantId": null
+      },
+      {
+        "reference": "16b6f861-deeb-44b0-9b6b-00e80dacf069",
+        "email": "Violet75@hotmail.com",
+        "firstName": "Barney",
+        "lastName": "Wyman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87567276",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "640d9500-ad26-491f-99d6-db375934cff7",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "dob": "2023-09-08T11:41:13.763Z",
+        "gender": "Female",
+        "phone_number": "555-1234",
+        "address": "789 Oak Lane",
+        "created_at": "2023-09-08T10:28:17.808Z",
+        "updated_at": "2023-09-08T01:12:23.557Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "55835302-88e3-4f8f-83d9-d26003b41ba2",
+        "first_name": "Daniel",
+        "last_name": "Smith",
+        "dob": "2023-09-08T12:55:00.065Z",
+        "gender": "Male",
+        "phone_number": "555-5678",
+        "address": "123 Main Street",
+        "created_at": "2023-09-08T17:42:06.591Z",
+        "updated_at": "2023-09-08T13:09:39.155Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "f538144c-23c0-4af9-ae0d-44865555acdf",
+        "first_name": "Olivia",
+        "last_name": "Brown",
+        "dob": "2023-09-08T13:56:40.764Z",
+        "gender": "Female",
+        "phone_number": "555-9012",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-09-08T14:08:15.576Z",
+        "updated_at": "2023-09-08T04:17:52.135Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "f3e0d5b8-a01c-4ecb-80aa-fa2f0f8c94e4",
+        "first_name": "Matthew",
+        "last_name": "Wilson",
+        "dob": "2023-09-08T13:36:15.828Z",
+        "gender": "Male",
+        "phone_number": "555-3456",
+        "address": "321 Maple Drive",
+        "created_at": "2023-09-08T19:35:02.206Z",
+        "updated_at": "2023-09-08T11:52:25.318Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "7dd1d6ea-0814-4840-a943-ad8801c1c56a",
+        "first_name": "Sophia",
+        "last_name": "Davis",
+        "dob": "2023-09-08T05:15:46.591Z",
+        "gender": "Female",
+        "phone_number": "555-7890",
+        "address": "654 Pine Court",
+        "created_at": "2023-09-08T17:27:39.288Z",
+        "updated_at": "2023-09-08T14:14:00.446Z",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "treatment_plan": [
+      {
+        "id": "5ae33c98-c181-4b2d-a68a-35ebe2e53cfe",
+        "name": "Orthodontic Treatment",
+        "description": "Customized treatment plan for correcting teeth alignment",
+        "cost": 90721,
+        "start_date": "2023-09-08T02:39:52.818Z",
+        "end_date": "2023-09-08T01:25:26.726Z",
+        "created_at": "2023-09-07T23:29:29.359Z",
+        "updated_at": "2023-09-08T19:36:05.622Z",
+        "patient_id": "640d9500-ad26-491f-99d6-db375934cff7"
+      },
+      {
+        "id": "13a1e4b4-1f0f-45e6-9733-c94e635f4217",
+        "name": "Physical Therapy",
+        "description": "Tailored exercise program for rehabilitation and pain relief",
+        "cost": 83840,
+        "start_date": "2023-09-08T12:21:21.251Z",
+        "end_date": "2023-09-08T19:29:46.637Z",
+        "created_at": "2023-09-08T01:56:53.293Z",
+        "updated_at": "2023-09-08T21:25:08.400Z",
+        "patient_id": "55835302-88e3-4f8f-83d9-d26003b41ba2"
+      },
+      {
+        "id": "9e595cb4-bd47-45cc-ad26-05fb3ca96228",
+        "name": "Vision Correction",
+        "description": "Corrective procedures for improving vision",
+        "cost": 60554,
+        "start_date": "2023-09-08T17:46:24.834Z",
+        "end_date": "2023-09-08T16:31:58.494Z",
+        "created_at": "2023-09-08T00:51:50.272Z",
+        "updated_at": "2023-09-08T20:11:27.873Z",
+        "patient_id": "55835302-88e3-4f8f-83d9-d26003b41ba2"
+      },
+      {
+        "id": "67661da6-34fc-4703-87c4-50811650444a",
+        "name": "Pediatric Vaccinations",
+        "description": "Immunizations for children to prevent diseases",
+        "cost": 37467,
+        "start_date": "2023-09-08T18:35:02.610Z",
+        "end_date": "2023-09-08T22:46:31.943Z",
+        "created_at": "2023-09-08T05:37:59.502Z",
+        "updated_at": "2023-09-08T11:31:04.445Z",
+        "patient_id": "f3e0d5b8-a01c-4ecb-80aa-fa2f0f8c94e4"
+      },
+      {
+        "id": "2c0b72ff-be80-4480-8a37-7488abfd300d",
+        "name": "Dental Cleaning",
+        "description": "Professional cleaning and oral hygiene instructions",
+        "cost": 90749,
+        "start_date": "2023-09-08T20:37:54.548Z",
+        "end_date": "2023-09-08T01:33:26.643Z",
+        "created_at": "2023-09-08T13:37:35.450Z",
+        "updated_at": "2023-09-07T23:37:09.391Z",
+        "patient_id": "640d9500-ad26-491f-99d6-db375934cff7"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "a3847557-a427-42ab-8c03-7333ee64eeeb",
+        "item_name": "Toothbrush",
+        "quantity": 40903,
+        "reorder_level": 66085,
+        "last_order_date": "2023-09-08T20:21:41.741Z",
+        "next_order_date": "2023-09-08T21:50:03.013Z",
+        "created_at": "2023-09-08T01:36:11.573Z",
+        "updated_at": "2023-09-07T23:46:21.790Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "c844308a-5bc4-4665-93f1-ab19e9f18759",
+        "item_name": "Bandages",
+        "quantity": 30579,
+        "reorder_level": 36791,
+        "last_order_date": "2023-09-08T19:28:22.001Z",
+        "next_order_date": "2023-09-08T12:59:49.983Z",
+        "created_at": "2023-09-08T09:48:09.288Z",
+        "updated_at": "2023-09-08T22:08:26.035Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "0467b4f1-187b-436b-8bc7-d8f75f271b86",
+        "item_name": "Eyeglasses",
+        "quantity": 16784,
+        "reorder_level": 97146,
+        "last_order_date": "2023-09-08T00:10:39.206Z",
+        "next_order_date": "2023-09-08T00:37:41.522Z",
+        "created_at": "2023-09-07T23:54:49.092Z",
+        "updated_at": "2023-09-08T09:24:39.719Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "9e9d1988-d473-4099-9aee-40055e2ca3cc",
+        "item_name": "Vaccines",
+        "quantity": 99050,
+        "reorder_level": 61764,
+        "last_order_date": "2023-09-08T02:35:09.580Z",
+        "next_order_date": "2023-09-08T16:11:43.347Z",
+        "created_at": "2023-09-08T06:13:35.737Z",
+        "updated_at": "2023-09-08T02:32:45.129Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "32ea4e6d-e026-4edc-952e-347a8d28667a",
+        "item_name": "Dental Floss",
+        "quantity": 81239,
+        "reorder_level": 82943,
+        "last_order_date": "2023-09-08T12:10:36.866Z",
+        "next_order_date": "2023-09-08T23:11:59.895Z",
+        "created_at": "2023-09-08T04:36:50.751Z",
+        "updated_at": "2023-09-08T20:09:45.846Z",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "43c85a3f-1753-47bb-9258-1b48c3ea42a4",
+        "date": "2023-09-08T15:32:55.343Z",
+        "time": "2023-09-08T04:44:19.983Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-08T22:44:37.672Z",
+        "updated_at": "2023-09-08T11:28:50.784Z",
+        "patient_id": "f3e0d5b8-a01c-4ecb-80aa-fa2f0f8c94e4",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "e7ab6335-d87d-458d-9c97-4639147d8891",
+        "date": "2023-09-08T13:57:59.445Z",
+        "time": "2023-09-08T19:56:53.753Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-08T18:01:53.189Z",
+        "updated_at": "2023-09-08T19:32:29.619Z",
+        "patient_id": "f3e0d5b8-a01c-4ecb-80aa-fa2f0f8c94e4",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "2514e269-7fd2-4e99-a616-e3b06a9f6204",
+        "date": "2023-09-07T23:58:58.607Z",
+        "time": "2023-09-08T01:35:29.450Z",
+        "status": "Completed",
+        "created_at": "2023-09-08T18:08:15.468Z",
+        "updated_at": "2023-09-08T04:50:13.538Z",
+        "patient_id": "7dd1d6ea-0814-4840-a943-ad8801c1c56a",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "86f6030c-833e-4f47-94b6-0bef794bc358",
+        "date": "2023-09-08T03:34:03.599Z",
+        "time": "2023-09-08T09:49:08.041Z",
+        "status": "Rescheduled",
+        "created_at": "2023-09-08T19:51:12.941Z",
+        "updated_at": "2023-09-08T04:49:25.884Z",
+        "patient_id": "f3e0d5b8-a01c-4ecb-80aa-fa2f0f8c94e4",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "e15bf688-1df7-454e-b83d-21b9b5a74e38",
+        "date": "2023-09-08T00:11:17.697Z",
+        "time": "2023-09-08T20:21:59.393Z",
+        "status": "No Show",
+        "created_at": "2023-09-08T19:09:53.328Z",
+        "updated_at": "2023-09-08T16:20:33.668Z",
+        "patient_id": "f538144c-23c0-4af9-ae0d-44865555acdf",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7af63e6a-2916-4365-8245-f29bb280b780",
+        "email": "Elna46@hotmail.com",
+        "firstName": "Pete",
+        "lastName": "Abbott",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/566.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4f88d536-596f-48b7-bd0e-ac8a03da1eaf",
+        "email": "Marvin.Johns@yahoo.com",
+        "firstName": "Saige",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/716.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f7a84fe3-7cd5-4346-8a86-fd380da256c8",
+        "email": "Jordyn83@gmail.com",
+        "firstName": "Amie",
+        "lastName": "Moore",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63618415",
+        "tenantId": null
+      },
+      {
+        "reference": "37f93bbb-9be6-4769-9138-333a53cc5dc7",
+        "email": "Jarrell.Johns36@hotmail.com",
+        "firstName": "Alysa",
+        "lastName": "Bechtelar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9811194",
+        "tenantId": null
+      },
+      {
+        "reference": "885db27e-c199-4de3-bcf7-23653ef44ab1",
+        "email": "Manuela.Quigley@hotmail.com",
+        "firstName": "Kali",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73948190",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "f8012a19-f078-490c-a206-e58ad7f8553e",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "dob": "2023-09-08T02:50:24.548Z",
+        "gender": "Female",
+        "phone_number": "123-456-7890",
+        "address": "789 Elm Street",
+        "created_at": "2023-09-08T11:02:06.600Z",
+        "updated_at": "2023-09-08T13:17:17.495Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "4d507a08-3815-4df3-a2be-bcfd18185715",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "dob": "2023-09-08T06:37:02.039Z",
+        "gender": "Male",
+        "phone_number": "987-654-3210",
+        "address": "456 Oak Street",
+        "created_at": "2023-09-08T23:12:21.022Z",
+        "updated_at": "2023-09-08T10:36:31.547Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "fa0c6f76-b055-4a2f-bc24-eb6650dce907",
+        "first_name": "Olivia",
+        "last_name": "Miller",
+        "dob": "2023-09-08T13:19:33.053Z",
+        "gender": "Female",
+        "phone_number": "456-789-1230",
+        "address": "123 Pine Street",
+        "created_at": "2023-09-08T05:26:50.049Z",
+        "updated_at": "2023-09-08T06:56:16.436Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "7294a5d3-4439-4344-9a2f-87a1687698a8",
+        "first_name": "Matthew",
+        "last_name": "Davis",
+        "dob": "2023-09-08T11:28:42.727Z",
+        "gender": "Male",
+        "phone_number": "321-654-9870",
+        "address": "654 Maple Street",
+        "created_at": "2023-09-08T00:34:51.486Z",
+        "updated_at": "2023-09-08T17:04:02.971Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "614ad15b-0430-4f9d-bf25-cd91fd58e7bc",
+        "first_name": "Sophia",
+        "last_name": "Garcia",
+        "dob": "2023-09-08T22:44:39.508Z",
+        "gender": "Female",
+        "phone_number": "789-123-4560",
+        "address": "321 Cedar Street",
+        "created_at": "2023-09-08T07:50:49.268Z",
+        "updated_at": "2023-09-08T18:13:11.879Z",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "treatment_plan": [
+      {
+        "id": "5cf9985c-9902-440e-9720-3d6386e50f64",
+        "name": "Orthodontic Treatment",
+        "description": "Comprehensive orthodontic treatment for misaligned teeth",
+        "cost": 27302,
+        "start_date": "2023-09-08T19:30:39.677Z",
+        "end_date": "2023-09-08T17:19:14.599Z",
+        "created_at": "2023-09-08T15:56:56.892Z",
+        "updated_at": "2023-09-08T00:17:00.174Z",
+        "patient_id": "f8012a19-f078-490c-a206-e58ad7f8553e"
+      },
+      {
+        "id": "c68ddf25-90fe-42d1-bee6-01ba1c8125e0",
+        "name": "Teeth Whitening",
+        "description": "Professional teeth whitening for a brighter smile",
+        "cost": 54523,
+        "start_date": "2023-09-08T13:42:38.921Z",
+        "end_date": "2023-09-08T11:09:44.505Z",
+        "created_at": "2023-09-08T01:13:39.181Z",
+        "updated_at": "2023-09-08T00:51:23.366Z",
+        "patient_id": "7294a5d3-4439-4344-9a2f-87a1687698a8"
+      },
+      {
+        "id": "d0403143-d8b4-4a2a-9fab-bcfddf6aa734",
+        "name": "Dental Implants",
+        "description": "Permanent dental implants to replace missing teeth",
+        "cost": 99904,
+        "start_date": "2023-09-08T10:44:30.254Z",
+        "end_date": "2023-09-08T01:19:11.907Z",
+        "created_at": "2023-09-08T21:48:31.772Z",
+        "updated_at": "2023-09-08T20:28:26.060Z",
+        "patient_id": "4d507a08-3815-4df3-a2be-bcfd18185715"
+      },
+      {
+        "id": "4eee417c-c7e7-41a0-a484-9fd2acee8cab",
+        "name": "Root Canal Therapy",
+        "description": "Treatment to save an infected tooth from extraction",
+        "cost": 16202,
+        "start_date": "2023-09-08T04:32:00.069Z",
+        "end_date": "2023-09-08T18:01:07.403Z",
+        "created_at": "2023-09-08T10:05:34.977Z",
+        "updated_at": "2023-09-08T15:28:12.039Z",
+        "patient_id": "614ad15b-0430-4f9d-bf25-cd91fd58e7bc"
+      },
+      {
+        "id": "b1cbf825-12e3-402c-b685-59b355b52703",
+        "name": "Dentures",
+        "description": "Removable dentures for missing teeth",
+        "cost": 89850,
+        "start_date": "2023-09-08T13:59:24.898Z",
+        "end_date": "2023-09-08T22:15:46.165Z",
+        "created_at": "2023-09-08T13:37:49.872Z",
+        "updated_at": "2023-09-08T22:29:59.267Z",
+        "patient_id": "614ad15b-0430-4f9d-bf25-cd91fd58e7bc"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "daa4b6eb-cb32-4e64-820b-00a114c30e6d",
+        "item_name": "Toothbrush",
+        "quantity": 18091,
+        "reorder_level": 32483,
+        "last_order_date": "2023-09-08T02:27:46.855Z",
+        "next_order_date": "2023-09-08T07:41:29.923Z",
+        "created_at": "2023-09-08T05:24:34.092Z",
+        "updated_at": "2023-09-08T06:09:17.492Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "51ac63de-9725-491a-8fee-fa526fc29609",
+        "item_name": "Toothpaste",
+        "quantity": 51395,
+        "reorder_level": 90177,
+        "last_order_date": "2023-09-08T11:11:41.002Z",
+        "next_order_date": "2023-09-08T10:36:52.790Z",
+        "created_at": "2023-09-08T21:48:42.548Z",
+        "updated_at": "2023-09-08T02:25:33.090Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "f86ae4f6-69a1-4d46-a924-ac46920960f2",
+        "item_name": "Dental Floss",
+        "quantity": 76447,
+        "reorder_level": 98184,
+        "last_order_date": "2023-09-08T04:25:30.291Z",
+        "next_order_date": "2023-09-08T10:31:04.662Z",
+        "created_at": "2023-09-08T09:21:29.538Z",
+        "updated_at": "2023-09-08T01:13:52.811Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "1c172d84-c1e9-4ef0-b0fd-a10e52f32c65",
+        "item_name": "Mouthwash",
+        "quantity": 77137,
+        "reorder_level": 26132,
+        "last_order_date": "2023-09-08T00:34:05.662Z",
+        "next_order_date": "2023-09-08T02:04:22.903Z",
+        "created_at": "2023-09-08T04:09:55.650Z",
+        "updated_at": "2023-09-08T06:38:17.053Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "8a849d35-7572-40ea-a777-c7a189d9672f",
+        "item_name": "Dental Mirror",
+        "quantity": 73484,
+        "reorder_level": 32131,
+        "last_order_date": "2023-09-08T16:52:43.194Z",
+        "next_order_date": "2023-09-08T15:33:26.040Z",
+        "created_at": "2023-09-08T19:36:46.611Z",
+        "updated_at": "2023-09-08T22:30:47.282Z",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "9aee445f-825f-4139-b9e5-f224a5601e09",
+        "date": "2023-09-08T08:25:09.111Z",
+        "time": "2023-09-08T07:23:54.437Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-08T16:07:17.626Z",
+        "updated_at": "2023-09-08T04:21:47.763Z",
+        "patient_id": "7294a5d3-4439-4344-9a2f-87a1687698a8",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "7ce83ace-4830-47c4-8d75-5448b309937f",
+        "date": "2023-09-08T15:02:28.826Z",
+        "time": "2023-09-08T06:18:23.197Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-08T01:25:24.916Z",
+        "updated_at": "2023-09-08T08:27:06.106Z",
+        "patient_id": "614ad15b-0430-4f9d-bf25-cd91fd58e7bc",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "db6d6d4e-ad10-463d-b728-65e30c9991df",
+        "date": "2023-09-08T20:56:53.608Z",
+        "time": "2023-09-08T10:03:30.604Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-08T03:26:17.385Z",
+        "updated_at": "2023-09-08T17:19:50.807Z",
+        "patient_id": "f8012a19-f078-490c-a206-e58ad7f8553e",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "03d940de-2a0c-46af-9f13-c1d0395573a2",
+        "date": "2023-09-08T10:35:18.714Z",
+        "time": "2023-09-08T13:42:30.913Z",
+        "status": "Completed",
+        "created_at": "2023-09-08T16:38:45.877Z",
+        "updated_at": "2023-09-08T11:05:52.411Z",
+        "patient_id": "7294a5d3-4439-4344-9a2f-87a1687698a8",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "63cfae7d-7e91-4f5b-aa7b-038fc36ba7d9",
+        "date": "2023-09-08T02:50:56.190Z",
+        "time": "2023-09-08T10:14:06.415Z",
+        "status": "Rescheduled",
+        "created_at": "2023-09-08T04:12:34.467Z",
+        "updated_at": "2023-09-08T13:22:32.270Z",
+        "patient_id": "fa0c6f76-b055-4a2f-bc24-eb6650dce907",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "31826b2e-8a4c-41e7-b10e-5a4673b87632",
+        "email": "Marlen53@yahoo.com",
+        "firstName": "Alayna",
+        "lastName": "Douglas-Monahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1097.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2e937e5a-7b89-4f8c-a980-ae3c09b0bc43",
+        "email": "Elyse.Ziemann@hotmail.com",
+        "firstName": "Ruben",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/616.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "29509266-5c46-44a3-b07c-22c4beaa07bd",
+        "email": "Alycia53@gmail.com",
+        "firstName": "Briana",
+        "lastName": "Koelpin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1125.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e1c2d9c8-b519-4984-a9cb-b40abefe7987",
+        "email": "America_Russel@hotmail.com",
+        "firstName": "Jane",
+        "lastName": "Emard",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/487.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "00234d6d-8879-4f37-bc2f-70f6f0a79446",
+        "email": "Anjali.Ziemann46@gmail.com",
+        "firstName": "Hailey",
+        "lastName": "Thompson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/888.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "660082f3-4061-4ec3-9e51-e5bdf699d4f1",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "dob": "2023-09-08T01:02:15.294Z",
+        "gender": "Female",
+        "phone_number": "123-456-7890",
+        "address": "789 Oak Lane",
+        "created_at": "2023-09-08T18:55:25.538Z",
+        "updated_at": "2023-09-08T19:11:19.889Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "52de089f-1ac3-4220-896c-df5c5a08ccca",
+        "first_name": "James",
+        "last_name": "Brown",
+        "dob": "2023-09-08T00:25:44.738Z",
+        "gender": "Male",
+        "phone_number": "987-654-3210",
+        "address": "321 Pine Road",
+        "created_at": "2023-09-08T06:08:32.308Z",
+        "updated_at": "2023-09-08T20:19:53.920Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "412c0688-d1fd-4108-9f7c-71705ce0475e",
+        "first_name": "Olivia",
+        "last_name": "Miller",
+        "dob": "2023-09-08T16:30:04.417Z",
+        "gender": "Female",
+        "phone_number": "555-123-4567",
+        "address": "654 Maple Drive",
+        "created_at": "2023-09-08T11:14:51.342Z",
+        "updated_at": "2023-09-08T17:10:25.049Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "34d0a26f-3819-4291-8543-98319c070382",
+        "first_name": "Daniel",
+        "last_name": "Wilson",
+        "dob": "2023-09-07T23:33:18.160Z",
+        "gender": "Male",
+        "phone_number": "888-999-0000",
+        "address": "123 Main Street",
+        "created_at": "2023-09-08T14:56:13.316Z",
+        "updated_at": "2023-09-08T02:02:20.941Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "73a6999c-5f18-4bd3-baf0-ff623cdbfd46",
+        "first_name": "Sophia",
+        "last_name": "Anderson",
+        "dob": "2023-09-08T16:55:54.673Z",
+        "gender": "Female",
+        "phone_number": "444-555-6666",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-09-08T16:17:01.687Z",
+        "updated_at": "2023-09-08T19:42:49.998Z",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "treatment_plan": [
+      {
+        "id": "1d03d062-8f05-4699-b64b-c90473dc18f7",
+        "name": "Dental Cleaning",
+        "description": "Routine dental cleaning and checkup",
+        "cost": 9639,
+        "start_date": "2023-09-08T20:14:41.673Z",
+        "end_date": "2023-09-08T22:53:31.223Z",
+        "created_at": "2023-09-08T15:02:21.909Z",
+        "updated_at": "2023-09-08T11:34:11.182Z",
+        "patient_id": "660082f3-4061-4ec3-9e51-e5bdf699d4f1"
+      },
+      {
+        "id": "889fb39e-1224-4aa4-bcb6-769acfc0f302",
+        "name": "Physical Therapy",
+        "description": "Customized therapy plan for rehabilitation",
+        "cost": 22210,
+        "start_date": "2023-09-08T16:28:08.892Z",
+        "end_date": "2023-09-08T07:52:50.154Z",
+        "created_at": "2023-09-08T09:16:17.850Z",
+        "updated_at": "2023-09-08T10:17:41.978Z",
+        "patient_id": "73a6999c-5f18-4bd3-baf0-ff623cdbfd46"
+      },
+      {
+        "id": "222de773-6479-44df-9502-3671c290a03a",
+        "name": "Orthopedic Surgery",
+        "description": "Surgical treatment for orthopedic conditions",
+        "cost": 13057,
+        "start_date": "2023-09-08T21:32:52.428Z",
+        "end_date": "2023-09-08T21:31:33.903Z",
+        "created_at": "2023-09-08T06:50:50.080Z",
+        "updated_at": "2023-09-08T01:04:38.444Z",
+        "patient_id": "52de089f-1ac3-4220-896c-df5c5a08ccca"
+      },
+      {
+        "id": "57dc910b-5c0a-4222-98a8-1c2362e47b90",
+        "name": "Cosmetic Procedure",
+        "description": "Enhancing appearance through cosmetic procedures",
+        "cost": 64285,
+        "start_date": "2023-09-08T15:52:58.806Z",
+        "end_date": "2023-09-08T04:31:34.072Z",
+        "created_at": "2023-09-08T12:03:00.608Z",
+        "updated_at": "2023-09-08T02:04:37.990Z",
+        "patient_id": "412c0688-d1fd-4108-9f7c-71705ce0475e"
+      },
+      {
+        "id": "97bb855f-6b9f-4132-bdd8-4423d411965e",
+        "name": "Health Checkup",
+        "description": "Comprehensive health evaluation and recommendations",
+        "cost": 12,
+        "start_date": "2023-09-08T21:57:54.750Z",
+        "end_date": "2023-09-08T07:39:51.250Z",
+        "created_at": "2023-09-08T05:38:31.218Z",
+        "updated_at": "2023-09-08T22:56:04.586Z",
+        "patient_id": "73a6999c-5f18-4bd3-baf0-ff623cdbfd46"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "a4fe57ec-53d7-47ab-9da9-31811ffdc471",
+        "item_name": "Toothbrush",
+        "quantity": 46437,
+        "reorder_level": 84447,
+        "last_order_date": "2023-09-08T12:43:11.517Z",
+        "next_order_date": "2023-09-08T23:06:44.206Z",
+        "created_at": "2023-09-08T11:37:07.145Z",
+        "updated_at": "2023-09-08T18:36:02.639Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "4e06d497-faa6-4b52-937a-41069f512abd",
+        "item_name": "Bandages",
+        "quantity": 79122,
+        "reorder_level": 41265,
+        "last_order_date": "2023-09-08T14:16:28.935Z",
+        "next_order_date": "2023-09-07T23:31:48.364Z",
+        "created_at": "2023-09-08T11:06:08.371Z",
+        "updated_at": "2023-09-08T05:45:29.384Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "a991dd34-7d3b-42cc-b105-a385f033106b",
+        "item_name": "Painkillers",
+        "quantity": 83498,
+        "reorder_level": 33321,
+        "last_order_date": "2023-09-08T19:52:35.954Z",
+        "next_order_date": "2023-09-08T14:17:07.023Z",
+        "created_at": "2023-09-08T03:39:45.719Z",
+        "updated_at": "2023-09-08T09:43:35.635Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "1da459b9-0917-4a34-9e58-25597243bc19",
+        "item_name": "Surgical Gloves",
+        "quantity": 15070,
+        "reorder_level": 76280,
+        "last_order_date": "2023-09-08T07:57:01.416Z",
+        "next_order_date": "2023-09-08T00:20:27.984Z",
+        "created_at": "2023-09-08T13:17:32.965Z",
+        "updated_at": "2023-09-07T23:53:54.808Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "30febfc4-99f8-4f81-9e5f-ac8f3007c84e",
+        "item_name": "Medical Scissors",
+        "quantity": 29509,
+        "reorder_level": 25274,
+        "last_order_date": "2023-09-08T00:22:30.069Z",
+        "next_order_date": "2023-09-08T20:37:48.268Z",
+        "created_at": "2023-09-08T20:21:16.748Z",
+        "updated_at": "2023-09-08T15:41:10.562Z",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "e57fce5e-f4a1-423b-83cb-4e023bd9a5cc",
+        "date": "2023-09-08T09:14:52.530Z",
+        "time": "2023-09-08T11:00:44.913Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-08T21:11:54.442Z",
+        "updated_at": "2023-09-08T14:52:29.558Z",
+        "patient_id": "660082f3-4061-4ec3-9e51-e5bdf699d4f1",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "727ad5b7-e23c-4b45-a260-9576d9d7fe6f",
+        "date": "2023-09-08T06:43:56.997Z",
+        "time": "2023-09-08T22:57:37.180Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-08T06:26:59.360Z",
+        "updated_at": "2023-09-08T07:37:50.946Z",
+        "patient_id": "52de089f-1ac3-4220-896c-df5c5a08ccca",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "1d39fcfb-74e2-4aae-aa7a-127200ab33ec",
+        "date": "2023-09-08T07:02:02.614Z",
+        "time": "2023-09-08T06:31:09.111Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-08T20:12:47.197Z",
+        "updated_at": "2023-09-08T08:36:02.129Z",
+        "patient_id": "660082f3-4061-4ec3-9e51-e5bdf699d4f1",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "6ddef36a-68cb-40f7-9588-f5442093e3ae",
+        "date": "2023-09-08T22:28:00.366Z",
+        "time": "2023-09-08T02:40:52.591Z",
+        "status": "Completed",
+        "created_at": "2023-09-08T21:58:52.529Z",
+        "updated_at": "2023-09-08T01:25:41.003Z",
+        "patient_id": "412c0688-d1fd-4108-9f7c-71705ce0475e",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "f3486e9b-3a4c-4e16-97b8-5b93163e6e84",
+        "date": "2023-09-08T19:31:11.833Z",
+        "time": "2023-09-08T07:49:23.059Z",
+        "status": "Rescheduled",
+        "created_at": "2023-09-08T04:29:01.863Z",
+        "updated_at": "2023-09-08T08:33:08.998Z",
+        "patient_id": "412c0688-d1fd-4108-9f7c-71705ce0475e",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "afc83bff-62fc-4001-897e-d191091865cd",
+        "email": "Adela_Waelchi@yahoo.com",
+        "firstName": "Stephany",
+        "lastName": "Herman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18330250",
+        "tenantId": null
+      },
+      {
+        "reference": "5ffb134f-8012-4bd2-990c-5827ebcd6bf1",
+        "email": "Wayne.Bashirian@hotmail.com",
+        "firstName": "Shyanne",
+        "lastName": "Baumbach-Senger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/586.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b6663686-849b-486c-91c4-c0c688a259ee",
+        "email": "Sonny_Huel@hotmail.com",
+        "firstName": "Domenick",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/482.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "118f4c56-10ba-4f85-8e5c-8706afef33fc",
+        "email": "Einar_Adams@gmail.com",
+        "firstName": "Lloyd",
+        "lastName": "Kulas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90491355",
+        "tenantId": null
+      },
+      {
+        "reference": "639e9c28-33f8-4572-bdc9-8e9327b3c9f6",
+        "email": "Aisha_Tromp2@yahoo.com",
+        "firstName": "Wendy",
+        "lastName": "Will",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44746883",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "ae272187-eb23-4797-8adc-dfe0e6f2a4bf",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "dob": "2023-09-08T10:53:18.733Z",
+        "gender": "Female",
+        "phone_number": "555-1234",
+        "address": "123 Main St",
+        "created_at": "2023-09-08T08:26:08.672Z",
+        "updated_at": "2023-09-08T07:56:13.618Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "bd5779d8-141a-469e-a620-8aa3b1a37b17",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "dob": "2023-09-08T14:24:11.793Z",
+        "gender": "Male",
+        "phone_number": "555-5678",
+        "address": "456 Elm St",
+        "created_at": "2023-09-08T14:43:09.880Z",
+        "updated_at": "2023-09-07T23:28:29.621Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "4af083af-7548-4ce4-b656-e0d56a5838f6",
+        "first_name": "Olivia",
+        "last_name": "Davis",
+        "dob": "2023-09-08T09:44:46.620Z",
+        "gender": "Female",
+        "phone_number": "555-9876",
+        "address": "789 Oak St",
+        "created_at": "2023-09-08T17:02:42.468Z",
+        "updated_at": "2023-09-08T20:45:53.204Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "553b2bbe-9416-4b61-9ea5-8f5fa8f2eb5c",
+        "first_name": "James",
+        "last_name": "Miller",
+        "dob": "2023-09-08T17:00:47.294Z",
+        "gender": "Male",
+        "phone_number": "555-4321",
+        "address": "321 Pine St",
+        "created_at": "2023-09-08T19:09:29.203Z",
+        "updated_at": "2023-09-08T02:47:30.060Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "45472ca4-ff77-43b5-941f-b23796e6c53d",
+        "first_name": "Sophia",
+        "last_name": "Wilson",
+        "dob": "2023-09-08T16:33:53.365Z",
+        "gender": "Female",
+        "phone_number": "555-8765",
+        "address": "654 Maple St",
+        "created_at": "2023-09-08T11:19:27.949Z",
+        "updated_at": "2023-09-08T05:11:16.160Z",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "treatment_plan": [
+      {
+        "id": "c791771b-559b-4c12-8b70-4f0a93611f2c",
+        "name": "Cleaning",
+        "description": "Routine dental cleaning",
+        "cost": 50809,
+        "start_date": "2023-09-08T04:28:27.040Z",
+        "end_date": "2023-09-08T14:41:22.168Z",
+        "created_at": "2023-09-08T02:50:48.985Z",
+        "updated_at": "2023-09-08T05:12:20.363Z",
+        "patient_id": "45472ca4-ff77-43b5-941f-b23796e6c53d"
+      },
+      {
+        "id": "ebf64d8c-ed22-41ba-b0c0-5c9bc4f571b7",
+        "name": "Braces",
+        "description": "Orthodontic treatment",
+        "cost": 61940,
+        "start_date": "2023-09-08T19:59:02.678Z",
+        "end_date": "2023-09-08T19:42:59.034Z",
+        "created_at": "2023-09-08T02:25:19.484Z",
+        "updated_at": "2023-09-08T07:46:10.171Z",
+        "patient_id": "553b2bbe-9416-4b61-9ea5-8f5fa8f2eb5c"
+      },
+      {
+        "id": "586676eb-adfd-4780-a0df-c605244ad421",
+        "name": "Vaccinations",
+        "description": "Immunizations for children",
+        "cost": 97073,
+        "start_date": "2023-09-08T00:07:20.943Z",
+        "end_date": "2023-09-08T07:39:14.500Z",
+        "created_at": "2023-09-08T16:57:18.304Z",
+        "updated_at": "2023-09-08T04:25:52.440Z",
+        "patient_id": "ae272187-eb23-4797-8adc-dfe0e6f2a4bf"
+      },
+      {
+        "id": "053a80b4-b5f4-4295-86f0-8b45dff2922f",
+        "name": "Spinal adjustment",
+        "description": "Chiropractic manipulation",
+        "cost": 98731,
+        "start_date": "2023-09-08T07:38:25.296Z",
+        "end_date": "2023-09-08T10:51:26.919Z",
+        "created_at": "2023-09-08T22:17:32.825Z",
+        "updated_at": "2023-09-08T00:14:58.725Z",
+        "patient_id": "bd5779d8-141a-469e-a620-8aa3b1a37b17"
+      },
+      {
+        "id": "d4ac4a6f-57a6-4bf8-b5ca-1063a5a2860a",
+        "name": "Acne treatment",
+        "description": "Treatment for acne",
+        "cost": 5749,
+        "start_date": "2023-09-08T22:40:37.651Z",
+        "end_date": "2023-09-08T07:15:56.157Z",
+        "created_at": "2023-09-08T00:27:19.949Z",
+        "updated_at": "2023-09-08T04:11:08.486Z",
+        "patient_id": "ae272187-eb23-4797-8adc-dfe0e6f2a4bf"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "a7164b30-f381-4ca8-968a-a49bae34658b",
+        "item_name": "Toothbrush",
+        "quantity": 60917,
+        "reorder_level": 66680,
+        "last_order_date": "2023-09-08T00:23:36.472Z",
+        "next_order_date": "2023-09-08T02:58:07.336Z",
+        "created_at": "2023-09-08T15:59:22.385Z",
+        "updated_at": "2023-09-08T18:19:36.170Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "91b57837-285a-43e0-b101-b4149b4fba66",
+        "item_name": "Bandages",
+        "quantity": 93995,
+        "reorder_level": 2914,
+        "last_order_date": "2023-09-08T12:26:01.069Z",
+        "next_order_date": "2023-09-08T10:23:55.577Z",
+        "created_at": "2023-09-08T03:10:55.634Z",
+        "updated_at": "2023-09-08T21:30:49.919Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "331c4693-916a-4383-adcd-5a59db327f8b",
+        "item_name": "Vitamins",
+        "quantity": 38903,
+        "reorder_level": 81101,
+        "last_order_date": "2023-09-07T23:24:56.575Z",
+        "next_order_date": "2023-09-08T05:54:40.153Z",
+        "created_at": "2023-09-08T23:00:12.276Z",
+        "updated_at": "2023-09-08T16:59:37.156Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "1271ba68-b6b1-4a4f-8f2f-0cffcdbbd2e5",
+        "item_name": "Pain relievers",
+        "quantity": 99339,
+        "reorder_level": 3025,
+        "last_order_date": "2023-09-08T12:51:20.252Z",
+        "next_order_date": "2023-09-08T22:35:49.571Z",
+        "created_at": "2023-09-08T23:15:27.838Z",
+        "updated_at": "2023-09-08T03:11:29.576Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "cee59d04-332e-429e-8cd4-c9885cff75cb",
+        "item_name": "Face cream",
+        "quantity": 71196,
+        "reorder_level": 16554,
+        "last_order_date": "2023-09-08T21:18:25.583Z",
+        "next_order_date": "2023-09-08T15:38:29.464Z",
+        "created_at": "2023-09-08T05:37:01.106Z",
+        "updated_at": "2023-09-08T14:06:13.966Z",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "6451ca75-052f-4487-af35-2160ea8709a0",
+        "date": "2023-09-08T02:10:59.495Z",
+        "time": "2023-09-08T04:58:26.830Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-08T07:00:14.201Z",
+        "updated_at": "2023-09-08T04:36:45.398Z",
+        "patient_id": "ae272187-eb23-4797-8adc-dfe0e6f2a4bf",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "3a223345-12af-4591-a99c-5ee44220936c",
+        "date": "2023-09-08T14:46:46.094Z",
+        "time": "2023-09-08T03:09:35.218Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-08T19:10:49.387Z",
+        "updated_at": "2023-09-08T09:22:35.958Z",
+        "patient_id": "bd5779d8-141a-469e-a620-8aa3b1a37b17",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "1158b016-3349-4d6b-af1e-7fe74587ebb0",
+        "date": "2023-09-08T08:40:16.056Z",
+        "time": "2023-09-08T18:07:58.064Z",
+        "status": "Completed",
+        "created_at": "2023-09-08T16:18:37.093Z",
+        "updated_at": "2023-09-08T16:47:35.340Z",
+        "patient_id": "553b2bbe-9416-4b61-9ea5-8f5fa8f2eb5c",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "4927cf8a-2fb0-4f25-987a-1e532a30bab3",
+        "date": "2023-09-08T01:53:14.809Z",
+        "time": "2023-09-08T21:37:47.357Z",
+        "status": "Rescheduled",
+        "created_at": "2023-09-08T08:30:56.489Z",
+        "updated_at": "2023-09-08T22:38:59.219Z",
+        "patient_id": "45472ca4-ff77-43b5-941f-b23796e6c53d",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "de74198d-a738-4885-954b-334398a969cc",
+        "date": "2023-09-08T04:44:01.702Z",
+        "time": "2023-09-08T19:19:50.813Z",
+        "status": "No-show",
+        "created_at": "2023-09-08T08:02:06.062Z",
+        "updated_at": "2023-09-08T18:40:52.516Z",
+        "patient_id": "ae272187-eb23-4797-8adc-dfe0e6f2a4bf",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c914e530-9f31-4596-9795-4c63074133ee",
+        "email": "Elliott.Bahringer46@yahoo.com",
+        "firstName": "Loren",
+        "lastName": "Schowalter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74264887",
+        "tenantId": null
+      },
+      {
+        "reference": "b330001e-e892-420d-a1bb-2da971461b98",
+        "email": "Gerardo_Nolan16@gmail.com",
+        "firstName": "Addie",
+        "lastName": "Waelchi",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1192.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0d4b9253-df52-4c4e-8318-b9f5519bda0e",
+        "email": "Virgie_Cummerata-Hirthe92@gmail.com",
+        "firstName": "Zoe",
+        "lastName": "Bogan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1900569",
+        "tenantId": null
+      },
+      {
+        "reference": "48ad9168-5246-4b14-8d10-ec6d4d751ed7",
+        "email": "Heloise.Kunde17@gmail.com",
+        "firstName": "Dalton",
+        "lastName": "Boehm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/763.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2bfe046a-1d19-4662-9ac9-b7f805134bef",
+        "email": "Clint_Schowalter@gmail.com",
+        "firstName": "Benny",
+        "lastName": "Collier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77781933",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "8af527fa-2da3-45c8-98f3-bd9f4708f0b8",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "dob": "2023-09-08T15:39:40.450Z",
+        "gender": "Female",
+        "phone_number": "123-456-7890",
+        "address": "789 Elm Street",
+        "created_at": "2023-09-08T19:59:54.988Z",
+        "updated_at": "2023-09-08T04:01:24.582Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "159a24d3-2e4e-45bd-93b9-5f8612fd71cd",
+        "first_name": "James",
+        "last_name": "Brown",
+        "dob": "2023-09-08T10:43:32.110Z",
+        "gender": "Male",
+        "phone_number": "987-654-3210",
+        "address": "321 Oak Avenue",
+        "created_at": "2023-09-08T04:38:22.206Z",
+        "updated_at": "2023-09-08T15:43:40.422Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "2b0fc171-324e-46fa-aa1e-3491e5e2dc21",
+        "first_name": "Olivia",
+        "last_name": "Davis",
+        "dob": "2023-09-08T01:52:11.858Z",
+        "gender": "Female",
+        "phone_number": "456-789-1230",
+        "address": "654 Pine Lane",
+        "created_at": "2023-09-08T21:36:01.024Z",
+        "updated_at": "2023-09-08T14:10:58.673Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "446cbb8c-7569-4a41-a4f4-ec988a7c72e8",
+        "first_name": "William",
+        "last_name": "Miller",
+        "dob": "2023-09-08T09:51:43.977Z",
+        "gender": "Male",
+        "phone_number": "321-654-9870",
+        "address": "987 Maple Road",
+        "created_at": "2023-09-08T06:18:10.267Z",
+        "updated_at": "2023-09-08T04:44:12.530Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "1dc90234-f860-4306-93be-cd4a54d556de",
+        "first_name": "Ava",
+        "last_name": "Wilson",
+        "dob": "2023-09-08T09:31:26.293Z",
+        "gender": "Female",
+        "phone_number": "789-123-4560",
+        "address": "456 Cedar Court",
+        "created_at": "2023-09-08T02:05:52.710Z",
+        "updated_at": "2023-09-08T04:44:58.469Z",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "treatment_plan": [
+      {
+        "id": "a7ff8e3e-9c85-43e9-9b29-a1f62a9d3917",
+        "name": "Cleaning",
+        "description": "Routine dental cleaning",
+        "cost": 85330,
+        "start_date": "2023-09-08T14:52:22.756Z",
+        "end_date": "2023-09-08T11:16:37.092Z",
+        "created_at": "2023-09-08T01:27:43.990Z",
+        "updated_at": "2023-09-07T23:54:49.774Z",
+        "patient_id": "8af527fa-2da3-45c8-98f3-bd9f4708f0b8"
+      },
+      {
+        "id": "546786db-8553-4f19-a2a2-a83022666907",
+        "name": "Braces",
+        "description": "Orthodontic treatment",
+        "cost": 66104,
+        "start_date": "2023-09-08T18:29:02.671Z",
+        "end_date": "2023-09-08T17:37:02.324Z",
+        "created_at": "2023-09-08T10:43:17.789Z",
+        "updated_at": "2023-09-08T00:57:25.205Z",
+        "patient_id": "2b0fc171-324e-46fa-aa1e-3491e5e2dc21"
+      },
+      {
+        "id": "4de00935-ab8a-4e0e-92da-df6783020ce6",
+        "name": "Whitening",
+        "description": "Teeth whitening procedure",
+        "cost": 5513,
+        "start_date": "2023-09-08T12:26:01.289Z",
+        "end_date": "2023-09-08T11:26:57.973Z",
+        "created_at": "2023-09-08T13:37:55.819Z",
+        "updated_at": "2023-09-08T04:29:20.556Z",
+        "patient_id": "159a24d3-2e4e-45bd-93b9-5f8612fd71cd"
+      },
+      {
+        "id": "d7aa7de0-6b89-42fa-846e-cdba51f79280",
+        "name": "Extraction",
+        "description": "Tooth extraction surgery",
+        "cost": 95351,
+        "start_date": "2023-09-08T07:52:20.346Z",
+        "end_date": "2023-09-08T03:31:21.915Z",
+        "created_at": "2023-09-08T22:08:13.506Z",
+        "updated_at": "2023-09-08T20:51:43.381Z",
+        "patient_id": "159a24d3-2e4e-45bd-93b9-5f8612fd71cd"
+      },
+      {
+        "id": "b969389f-8115-49c7-b220-4d52a225839a",
+        "name": "Fillings",
+        "description": "Dental fillings placement",
+        "cost": 93699,
+        "start_date": "2023-09-08T19:09:26.520Z",
+        "end_date": "2023-09-08T06:23:01.489Z",
+        "created_at": "2023-09-08T20:54:45.674Z",
+        "updated_at": "2023-09-08T08:51:14.445Z",
+        "patient_id": "159a24d3-2e4e-45bd-93b9-5f8612fd71cd"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "a91ccbda-2e5a-4dd6-a018-8717150f4f93",
+        "item_name": "Toothbrush",
+        "quantity": 63129,
+        "reorder_level": 92083,
+        "last_order_date": "2023-09-08T04:26:54.325Z",
+        "next_order_date": "2023-09-08T21:03:34.677Z",
+        "created_at": "2023-09-08T16:36:53.748Z",
+        "updated_at": "2023-09-08T06:46:04.194Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "5e664fd6-aa23-483c-91a5-009b78591153",
+        "item_name": "Toothpaste",
+        "quantity": 83387,
+        "reorder_level": 4864,
+        "last_order_date": "2023-09-08T21:42:05.110Z",
+        "next_order_date": "2023-09-08T08:15:59.089Z",
+        "created_at": "2023-09-08T05:02:48.078Z",
+        "updated_at": "2023-09-08T14:23:24.367Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "0d30120b-eead-4efa-b2cc-ba07acb4f2ef",
+        "item_name": "Floss",
+        "quantity": 99988,
+        "reorder_level": 55682,
+        "last_order_date": "2023-09-08T01:38:18.572Z",
+        "next_order_date": "2023-09-08T17:16:40.482Z",
+        "created_at": "2023-09-08T02:07:36.472Z",
+        "updated_at": "2023-09-08T00:48:13.849Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "f431b503-cc34-499d-bbcd-dc9ce1d0399c",
+        "item_name": "Mouthwash",
+        "quantity": 26108,
+        "reorder_level": 96962,
+        "last_order_date": "2023-09-08T20:32:25.345Z",
+        "next_order_date": "2023-09-08T17:16:56.233Z",
+        "created_at": "2023-09-08T19:21:29.169Z",
+        "updated_at": "2023-09-08T14:00:53.289Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "075e20b8-fa38-473e-8ce0-bcc9ef62d1af",
+        "item_name": "Dental mirror",
+        "quantity": 30226,
+        "reorder_level": 40700,
+        "last_order_date": "2023-09-08T03:14:48.902Z",
+        "next_order_date": "2023-09-08T03:37:51.450Z",
+        "created_at": "2023-09-08T07:00:52.053Z",
+        "updated_at": "2023-09-08T09:01:45.821Z",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "a2caa754-1e5d-41b3-9bbb-a94916113450",
+        "date": "2023-09-08T18:01:18.774Z",
+        "time": "2023-09-08T15:31:09.120Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-08T05:46:27.525Z",
+        "updated_at": "2023-09-08T20:24:09.045Z",
+        "patient_id": "159a24d3-2e4e-45bd-93b9-5f8612fd71cd",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "97688c1c-7549-4bdf-a59c-4755313de051",
+        "date": "2023-09-08T04:29:15.480Z",
+        "time": "2023-09-08T14:51:04.563Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-08T21:24:56.244Z",
+        "updated_at": "2023-09-08T07:48:58.762Z",
+        "patient_id": "2b0fc171-324e-46fa-aa1e-3491e5e2dc21",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "8bceeb2b-4b14-4ff1-b5a3-2095c9e4947f",
+        "date": "2023-09-08T13:39:19.484Z",
+        "time": "2023-09-08T06:55:30.167Z",
+        "status": "Completed",
+        "created_at": "2023-09-08T16:31:10.409Z",
+        "updated_at": "2023-09-08T13:54:04.100Z",
+        "patient_id": "2b0fc171-324e-46fa-aa1e-3491e5e2dc21",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "88867190-0de5-46ea-bf58-66446b595fd8",
+        "date": "2023-09-08T01:13:12.823Z",
+        "time": "2023-09-08T10:00:02.332Z",
+        "status": "Rescheduled",
+        "created_at": "2023-09-08T07:31:57.659Z",
+        "updated_at": "2023-09-08T07:31:19.423Z",
+        "patient_id": "446cbb8c-7569-4a41-a4f4-ec988a7c72e8",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "ad6693e4-11cb-4b93-a3f9-c99fd7e91a0a",
+        "date": "2023-09-08T07:41:36.693Z",
+        "time": "2023-09-08T17:08:31.259Z",
+        "status": "No-show",
+        "created_at": "2023-09-08T21:23:44.448Z",
+        "updated_at": "2023-09-08T04:10:18.672Z",
+        "patient_id": "1dc90234-f860-4306-93be-cd4a54d556de",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3355a52d-888d-4f90-a6ce-efe9e97bffee",
+        "email": "Yasmin_Volkman-Buckridge97@hotmail.com",
+        "firstName": "Brenda",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/311.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "32b91faf-5938-40be-992f-7a25c0e73eaa",
+        "email": "Brayan_Kub@hotmail.com",
+        "firstName": "Kianna",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/53.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5cad46ab-2332-4325-aeea-3c58c99c494f",
+        "email": "Karlee47@hotmail.com",
+        "firstName": "Laurie",
+        "lastName": "Hoeger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/542.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "57f7f8c1-681c-4c6f-afc0-cb115f9d77b5",
+        "email": "Felipa_Sawayn54@yahoo.com",
+        "firstName": "Roberta",
+        "lastName": "Rath",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46145596",
+        "tenantId": null
+      },
+      {
+        "reference": "1ca31112-61cd-4adc-9f97-1c409a1866ef",
+        "email": "Jay.Hilpert75@hotmail.com",
+        "firstName": "Alberto",
+        "lastName": "Koepp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/560.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "1f5510b8-e080-4549-a659-a0d6f0a27f6a",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "dob": "2023-09-08T12:25:26.884Z",
+        "gender": "Female",
+        "phone_number": "(123) 456-7890",
+        "address": "123 Main St",
+        "created_at": "2023-09-08T00:44:38.971Z",
+        "updated_at": "2023-09-08T20:18:28.509Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "895c51c8-7264-4a25-a685-d2d725c428e2",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "dob": "2023-09-08T10:34:50.844Z",
+        "gender": "Male",
+        "phone_number": "(987) 654-3210",
+        "address": "456 Elm St",
+        "created_at": "2023-09-08T19:44:54.127Z",
+        "updated_at": "2023-09-08T17:16:02.192Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "186815d6-97ba-4cb2-ac7e-99f867da1ad5",
+        "first_name": "Olivia",
+        "last_name": "Smith",
+        "dob": "2023-09-08T11:55:53.482Z",
+        "gender": "Female",
+        "phone_number": "(555) 123-4567",
+        "address": "789 Oak St",
+        "created_at": "2023-09-08T18:17:19.400Z",
+        "updated_at": "2023-09-08T21:56:25.943Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "d1fac746-5342-468c-a446-f186d1e10f51",
+        "first_name": "Matthew",
+        "last_name": "Davis",
+        "dob": "2023-09-08T15:19:33.648Z",
+        "gender": "Male",
+        "phone_number": "(888) 999-0000",
+        "address": "321 Maple Ave",
+        "created_at": "2023-09-08T14:54:52.693Z",
+        "updated_at": "2023-09-08T07:18:23.385Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "d63477ed-1b9d-4783-9d51-ae850add1172",
+        "first_name": "Sophia",
+        "last_name": "Wilson",
+        "dob": "2023-09-08T05:26:59.467Z",
+        "gender": "Female",
+        "phone_number": "(111) 222-3333",
+        "address": "654 Pine St",
+        "created_at": "2023-09-08T19:40:02.760Z",
+        "updated_at": "2023-09-08T04:24:55.125Z",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "treatment_plan": [
+      {
+        "id": "8c853b4e-ba92-48a8-a6fb-718f91949664",
+        "name": "Routine Checkup",
+        "description": "Comprehensive dental examination",
+        "cost": 70693,
+        "start_date": "2023-09-08T22:35:04.295Z",
+        "end_date": "2023-09-08T16:34:27.605Z",
+        "created_at": "2023-09-08T14:51:41.327Z",
+        "updated_at": "2023-09-08T09:44:31.791Z",
+        "patient_id": "186815d6-97ba-4cb2-ac7e-99f867da1ad5"
+      },
+      {
+        "id": "09ca05b8-7ce2-4494-800e-03a8261c104b",
+        "name": "Orthodontic Treatment",
+        "description": "Correcting misaligned teeth",
+        "cost": 92108,
+        "start_date": "2023-09-08T19:47:56.217Z",
+        "end_date": "2023-09-08T08:58:49.953Z",
+        "created_at": "2023-09-08T19:40:33.175Z",
+        "updated_at": "2023-09-08T10:21:55.120Z",
+        "patient_id": "d1fac746-5342-468c-a446-f186d1e10f51"
+      },
+      {
+        "id": "51b22cb6-2795-459c-bacf-2bec30c55c79",
+        "name": "Teeth Whitening",
+        "description": "Removing stains and discoloration",
+        "cost": 8639,
+        "start_date": "2023-09-08T06:27:54.957Z",
+        "end_date": "2023-09-08T14:30:07.258Z",
+        "created_at": "2023-09-08T07:51:06.245Z",
+        "updated_at": "2023-09-08T14:17:48.450Z",
+        "patient_id": "d63477ed-1b9d-4783-9d51-ae850add1172"
+      },
+      {
+        "id": "abfe1950-bf4a-4476-8462-bc6409a5f695",
+        "name": "Dental Implants",
+        "description": "Replacing missing teeth",
+        "cost": 60296,
+        "start_date": "2023-09-08T22:14:40.027Z",
+        "end_date": "2023-09-08T02:06:48.810Z",
+        "created_at": "2023-09-08T22:27:24.486Z",
+        "updated_at": "2023-09-07T23:28:49.189Z",
+        "patient_id": "d1fac746-5342-468c-a446-f186d1e10f51"
+      },
+      {
+        "id": "3b791ee8-89da-4792-8883-820ab5347cef",
+        "name": "Root Canal Therapy",
+        "description": "Treating infected tooth pulp",
+        "cost": 6951,
+        "start_date": "2023-09-08T15:26:28.168Z",
+        "end_date": "2023-09-08T01:48:06.997Z",
+        "created_at": "2023-09-08T15:41:46.475Z",
+        "updated_at": "2023-09-08T02:06:23.098Z",
+        "patient_id": "d1fac746-5342-468c-a446-f186d1e10f51"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "96b8baec-b004-4272-8710-4f81d28234e4",
+        "item_name": "Toothbrush",
+        "quantity": 45795,
+        "reorder_level": 40543,
+        "last_order_date": "2023-09-08T00:34:05.344Z",
+        "next_order_date": "2023-09-08T01:06:24.063Z",
+        "created_at": "2023-09-08T11:06:03.806Z",
+        "updated_at": "2023-09-08T06:56:17.365Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "91116f3a-2701-406c-81eb-79a1e7343d8b",
+        "item_name": "Toothpaste",
+        "quantity": 83249,
+        "reorder_level": 52825,
+        "last_order_date": "2023-09-08T00:11:57.233Z",
+        "next_order_date": "2023-09-08T19:40:02.997Z",
+        "created_at": "2023-09-08T00:20:22.395Z",
+        "updated_at": "2023-09-08T09:59:15.230Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "5c1b937e-2248-463d-89c6-3b5bb568326d",
+        "item_name": "Dental Floss",
+        "quantity": 72616,
+        "reorder_level": 11132,
+        "last_order_date": "2023-09-08T10:43:04.523Z",
+        "next_order_date": "2023-09-08T09:27:21.571Z",
+        "created_at": "2023-09-08T21:25:39.186Z",
+        "updated_at": "2023-09-08T01:25:07.685Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "0d9317f4-6488-48ce-a28d-8ca757321efd",
+        "item_name": "Mouthwash",
+        "quantity": 51391,
+        "reorder_level": 11152,
+        "last_order_date": "2023-09-08T01:27:09.493Z",
+        "next_order_date": "2023-09-08T14:49:16.362Z",
+        "created_at": "2023-09-08T09:52:35.011Z",
+        "updated_at": "2023-09-08T11:40:58.203Z",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "ab8ee5a1-b8c6-454a-9abf-0b078022ab14",
+        "item_name": "Denture Adhesive",
+        "quantity": 54102,
+        "reorder_level": 34287,
+        "last_order_date": "2023-09-08T14:06:11.898Z",
+        "next_order_date": "2023-09-08T22:25:38.110Z",
+        "created_at": "2023-09-08T21:37:30.903Z",
+        "updated_at": "2023-09-08T17:34:59.250Z",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "38036643-db2f-40af-9a7c-4ecec2ad9b9c",
+        "date": "2023-09-08T08:05:28.176Z",
+        "time": "2023-09-08T07:43:41.451Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-08T02:10:32.808Z",
+        "updated_at": "2023-09-08T22:26:28.523Z",
+        "patient_id": "186815d6-97ba-4cb2-ac7e-99f867da1ad5",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "a708ec1a-e38b-44df-8994-dff6cb2f996b",
+        "date": "2023-09-08T21:54:04.101Z",
+        "time": "2023-09-08T13:52:23.449Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-08T15:07:27.997Z",
+        "updated_at": "2023-09-08T09:56:00.336Z",
+        "patient_id": "186815d6-97ba-4cb2-ac7e-99f867da1ad5",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "6505ccc9-1595-4392-bfc3-54e196ca0fea",
+        "date": "2023-09-08T19:57:53.401Z",
+        "time": "2023-09-08T09:58:08.999Z",
+        "status": "Completed",
+        "created_at": "2023-09-08T01:06:05.407Z",
+        "updated_at": "2023-09-08T08:09:46.591Z",
+        "patient_id": "d1fac746-5342-468c-a446-f186d1e10f51",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "9ec621ba-62e8-4ce9-a4b8-2bc9219770d6",
+        "date": "2023-09-08T21:12:47.583Z",
+        "time": "2023-09-08T05:05:23.945Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-08T20:03:10.723Z",
+        "updated_at": "2023-09-08T17:20:46.628Z",
+        "patient_id": "895c51c8-7264-4a25-a685-d2d725c428e2",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "7d09067d-e46c-46a9-babb-5b589f78260e",
+        "date": "2023-09-08T05:06:14.320Z",
+        "time": "2023-09-08T09:01:36.363Z",
+        "status": "Rescheduled",
+        "created_at": "2023-09-08T23:08:43.949Z",
+        "updated_at": "2023-09-08T17:23:38.393Z",
+        "patient_id": "1f5510b8-e080-4549-a659-a0d6f0a27f6a",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5eff7d61-0a32-48e7-a171-8da97a9d7ec6",
+        "email": "Keeley.Mante91@yahoo.com",
+        "firstName": "Jeffrey",
+        "lastName": "Weissnat",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/270.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "93d1e0d4-a611-4abc-b0c6-5b2ee7bb5d79",
+        "email": "Catharine98@gmail.com",
+        "firstName": "Kaela",
+        "lastName": "Pacocha",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65619415",
+        "tenantId": null
+      },
+      {
+        "reference": "faed3504-61cf-438d-95ff-af6924667d63",
+        "email": "Noemy.Berge@yahoo.com",
+        "firstName": "Hoyt",
+        "lastName": "Klein",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/628.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c6a7f82e-01e7-45c3-afde-70c1bd007a15",
+        "email": "Aubree.Moore24@gmail.com",
+        "firstName": "Arvel",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1047.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6795a372-a08d-4d47-80f6-8b57f9e9a309",
+        "email": "Maeve_Spinka@hotmail.com",
+        "firstName": "Green",
+        "lastName": "Schroeder-Christiansen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/165.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
